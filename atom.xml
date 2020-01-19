@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-01-19T13:26:59.333Z</updated>
+  <updated>2020-01-19T14:58:42.213Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>test</title>
-    <link href="http://yoursite.com/2020/01/19/test/"/>
-    <id>http://yoursite.com/2020/01/19/test/</id>
-    <published>2020-01-19T13:04:37.000Z</published>
-    <updated>2020-01-19T13:26:59.333Z</updated>
+    <title>probably-a-memoir</title>
+    <link href="http://yoursite.com/2020/01/19/probably-a-memoir/"/>
+    <id>http://yoursite.com/2020/01/19/probably-a-memoir/</id>
+    <published>2020-01-19T14:53:09.000Z</published>
+    <updated>2020-01-19T14:58:42.213Z</updated>
     
     <summary type="html">
     
@@ -29,17 +29,13 @@
       
         
         
-          &lt;img src=&quot;/2020/01/19/test/574e6b938d8164532d31931986d441b9_1_3_art.jpg&quot;
+          &lt;img src=&quot;/2020/01/19/probably-a-memoir/banner.jpg&quot;
         
       
     
     </summary>
     
     
-    
-      <category term="233" scheme="http://yoursite.com/tags/233/"/>
-    
-      <category term="2333" scheme="http://yoursite.com/tags/2333/"/>
     
   </entry>
   
