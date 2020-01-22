@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-01-19T14:59:27.209Z</updated>
+  <updated>2020-01-22T16:32:43.017Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,42 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>SONY A105 浅度测评</title>
+    <link href="http://yoursite.com/2020/01/22/SONY-A105-shallow-evaluation/"/>
+    <id>http://yoursite.com/2020/01/22/SONY-A105-shallow-evaluation/</id>
+    <published>2020-01-22T15:52:26.000Z</published>
+    <updated>2020-01-22T16:32:43.017Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;很早就心水 SONY 的产品了，一直想入索法的大门，于是就借此机会，入了这台设备。&lt;/p&gt;
+&lt;p&gt;为什么要称之为浅度测评呢？还不是因为我觉得我对索法产品的了解程度不够，到手体验也没几天（（。所以这篇测评主要从我的主观体验展开。&lt;/p&gt;
+&lt;h2 id=&quot;开箱&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="SONY" scheme="http://yoursite.com/tags/SONY/"/>
+    
+      <category term="评测" scheme="http://yoursite.com/tags/%E8%AF%84%E6%B5%8B/"/>
+    
+      <category term="COOLAPK" scheme="http://yoursite.com/tags/COOLAPK/"/>
+    
+  </entry>
+  
+  <entry>
     <title>大概是个回忆录</title>
     <link href="http://yoursite.com/2020/01/19/probably-a-memoir/"/>
     <id>http://yoursite.com/2020/01/19/probably-a-memoir/</id>
     <published>2020-01-19T14:53:09.000Z</published>
-    <updated>2020-01-19T14:59:27.209Z</updated>
+    <updated>2020-01-22T15:53:31.528Z</updated>
     
     <summary type="html">
     
@@ -36,6 +67,8 @@
     </summary>
     
     
+    
+      <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
