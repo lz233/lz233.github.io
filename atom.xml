@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-01-23T08:15:59.076Z</updated>
+  <updated>2020-01-27T16:21:05.902Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>《七日》随笔</title>
+    <link href="http://yoursite.com/2020/01/27/seven-days/"/>
+    <id>http://yoursite.com/2020/01/27/seven-days/</id>
+    <published>2020-01-27T09:03:32.000Z</published>
+    <updated>2020-01-27T16:21:05.902Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p align=&quot;center&quot;&gt;&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=78978349&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+      <category term="bilibili" scheme="http://yoursite.com/tags/bilibili/"/>
+    
+  </entry>
+  
+  <entry>
     <title>SONY A105 浅度测评</title>
     <link href="http://yoursite.com/2020/01/22/SONY-A105-shallow-evaluation/"/>
     <id>http://yoursite.com/2020/01/22/SONY-A105-shallow-evaluation/</id>
     <published>2020-01-22T15:52:26.000Z</published>
-    <updated>2020-01-23T08:15:59.076Z</updated>
+    <updated>2020-01-27T09:00:34.645Z</updated>
     
     <summary type="html">
     
@@ -43,7 +70,7 @@
     
       <category term="评测" scheme="http://yoursite.com/tags/%E8%AF%84%E6%B5%8B/"/>
     
-      <category term="COOLAPK" scheme="http://yoursite.com/tags/COOLAPK/"/>
+      <category term="酷安" scheme="http://yoursite.com/tags/%E9%85%B7%E5%AE%89/"/>
     
   </entry>
   
