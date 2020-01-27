@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-01-27T16:21:05.902Z</updated>
+  <updated>2020-01-27T17:11:01.869Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2020/01/27/seven-days/"/>
     <id>http://yoursite.com/2020/01/27/seven-days/</id>
     <published>2020-01-27T09:03:32.000Z</published>
-    <updated>2020-01-27T16:21:05.902Z</updated>
+    <updated>2020-01-27T17:11:01.869Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,9 @@
       
         
         
-          &lt;p align=&quot;center&quot;&gt;&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=78978349&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot;
+          &lt;div class=&quot;box1&quot;&gt;
+    &lt;div class=&quot;box2&quot;&gt;
+        &lt;iframe src=&quot;//player.bilibili.com/player.html?aid=78978349&quot; scrolling=&quot;no&quot;    
         
       
     
