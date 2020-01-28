@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-01-28T10:58:16.616Z</updated>
+  <updated>2020-01-28T13:32:15.850Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>WearOS 无痛更换配对设备</title>
+    <link href="http://yoursite.com/2020/01/28/wearos-replaces-pairing-device/"/>
+    <id>http://yoursite.com/2020/01/28/wearos-replaces-pairing-device/</id>
+    <published>2020-01-28T13:26:25.000Z</published>
+    <updated>2020-01-28T13:32:15.850Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;adb shell &amp;quot;pm clear com.google.android.gms &amp;amp;&amp;amp;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
+    
+      <category term="WearOS" scheme="http://yoursite.com/tags/WearOS/"/>
+    
+  </entry>
   
   <entry>
     <title>《七日》随笔</title>
