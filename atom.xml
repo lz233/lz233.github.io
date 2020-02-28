@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-28T15:20:14.216Z</updated>
+  <updated>2020-02-28T15:49:24.747Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,17 +17,23 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>哪一个男孩不想尝试一次爆款 Linux 系统\nZorin OS 篇</title>
+    <title>哪一个男孩不想尝试一次爆款 Linux 系统 —— Zorin OS 篇</title>
     <link href="http://yoursite.com/2020/02/28/which-boy-doesnot-want-to-try-a-blockbuster-linux-1/"/>
     <id>http://yoursite.com/2020/02/28/which-boy-doesnot-want-to-try-a-blockbuster-linux-1/</id>
     <published>2020-02-28T15:17:28.000Z</published>
-    <updated>2020-02-28T15:20:14.216Z</updated>
+    <updated>2020-02-28T15:49:24.747Z</updated>
     
     <summary type="html">
     
     </summary>
     
     
+    
+      <category term="GNU/Linux" scheme="http://yoursite.com/tags/GNU-Linux/"/>
+    
+      <category term="回形针" scheme="http://yoursite.com/tags/%E5%9B%9E%E5%BD%A2%E9%92%88/"/>
+    
+      <category term="ZorinOS" scheme="http://yoursite.com/tags/ZorinOS/"/>
     
   </entry>
   
