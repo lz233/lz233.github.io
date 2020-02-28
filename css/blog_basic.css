@@ -175,6 +175,8 @@ html {
   margin: 0; }
 
   body {
+	background: #F1F4ED url(https://s2.ax1x.com/2019/04/29/E37N5t.jpg) no-repeat fixed top right !important; 
+	background-size:cover !important;
     padding: 0;
     margin: 0;
     line-height: 1.6em; }
