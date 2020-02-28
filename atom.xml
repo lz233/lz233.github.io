@@ -145,11 +145,11 @@
     
       <category term="SONY" scheme="http://yoursite.com/tags/SONY/"/>
     
+      <category term="Adnroid" scheme="http://yoursite.com/tags/Adnroid/"/>
+    
       <category term="评测" scheme="http://yoursite.com/tags/%E8%AF%84%E6%B5%8B/"/>
     
       <category term="酷安" scheme="http://yoursite.com/tags/%E9%85%B7%E5%AE%89/"/>
-    
-      <category term="Adnroid" scheme="http://yoursite.com/tags/Adnroid/"/>
     
   </entry>
   
