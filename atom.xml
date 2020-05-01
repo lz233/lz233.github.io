@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lz233.github.io/"/>
-  <updated>2020-04-10T06:38:55.731Z</updated>
+  <updated>2020-05-01T12:54:08.678Z</updated>
   <id>https://lz233.github.io/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>简短的 Walkman Updater 使用教程</title>
+    <link href="https://lz233.github.io/2020/05/01/how-to-use-walkman-updater/"/>
+    <id>https://lz233.github.io/2020/05/01/how-to-use-walkman-updater/</id>
+    <published>2020-05-01T11:58:39.000Z</published>
+    <updated>2020-05-01T12:54:08.678Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;自己写的一个小玩具，&lt;del&gt;好像&lt;/del&gt;可以帮你轻松切换固件区域（&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;UI 都是抄 Clash 的！&lt;/del&gt;&lt;/p&gt;
+&lt;img src=&quot;1.png&quot; alt=&quot;1&quot; style=&quot;zoom:50%;&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="SONY" scheme="https://lz233.github.io/tags/SONY/"/>
+    
+      <category term="Android" scheme="https://lz233.github.io/tags/Android/"/>
+    
+      <category term="Walkman" scheme="https://lz233.github.io/tags/Walkman/"/>
+    
+  </entry>
   
   <entry>
     <title>樱花</title>
@@ -196,7 +227,7 @@
     <link href="https://lz233.github.io/2020/01/22/SONY-A105-shallow-evaluation/"/>
     <id>https://lz233.github.io/2020/01/22/SONY-A105-shallow-evaluation/</id>
     <published>2020-01-22T15:52:26.000Z</published>
-    <updated>2020-02-29T02:02:35.247Z</updated>
+    <updated>2020-05-01T12:01:11.245Z</updated>
     
     <summary type="html">
     
@@ -219,6 +250,8 @@
       <category term="Adnroid" scheme="https://lz233.github.io/tags/Adnroid/"/>
     
       <category term="评测" scheme="https://lz233.github.io/tags/%E8%AF%84%E6%B5%8B/"/>
+    
+      <category term="Walkman" scheme="https://lz233.github.io/tags/Walkman/"/>
     
   </entry>
   
