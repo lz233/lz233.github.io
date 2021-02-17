@@ -6,7 +6,7 @@
   <link href="https://lz233.ac.cn/atom.xml" rel="self"/>
   
   <link href="https://lz233.ac.cn/"/>
-  <updated>2020-12-05T12:22:08.556Z</updated>
+  <updated>2021-02-16T17:01:19.000Z</updated>
   <id>https://lz233.ac.cn/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>「长期更新」一些有意思的开源项目收集</title>
+    <link href="https://lz233.ac.cn/2021/02/17/collection-of-open-source-projects/"/>
+    <id>https://lz233.ac.cn/2021/02/17/collection-of-open-source-projects/</id>
+    <published>2021-02-16T17:01:19.000Z</published>
+    <updated>2021-02-16T17:01:19.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;常常在 Github 会看到一些很有意思的开源项目，但鉴于 Github 的 Star 没有分组功能，很快它们就消失在我的视线中。&lt;/p&gt;
+&lt;p&gt;这里整理个人认为有意思的开源项目。按字母序。&lt;/p&gt;
+&lt;h2 id=&quot;A&quot;&gt;&lt;a href=&quot;#A&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="清单" scheme="https://lz233.ac.cn/tags/%E6%B8%85%E5%8D%95/"/>
+    
+    <category term="个人向" scheme="https://lz233.ac.cn/tags/%E4%B8%AA%E4%BA%BA%E5%90%91/"/>
+    
+  </entry>
   
   <entry>
     <title>THE END OF 2020</title>
