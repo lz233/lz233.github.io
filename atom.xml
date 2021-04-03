@@ -6,7 +6,7 @@
   <link href="https://lz233.ac.cn/atom.xml" rel="self"/>
   
   <link href="https://lz233.ac.cn/"/>
-  <updated>2021-02-16T17:01:19.000Z</updated>
+  <updated>2021-04-03T14:16:02.000Z</updated>
   <id>https://lz233.ac.cn/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>「Kotlin 速成笔记」基本类型、运算符、数组和集合类</title>
+    <link href="https://lz233.ac.cn/2021/04/03/kotlin-notes-1/"/>
+    <id>https://lz233.ac.cn/2021/04/03/kotlin-notes-1/</id>
+    <published>2021-04-03T14:16:02.000Z</published>
+    <updated>2021-04-03T14:16:02.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;请注意，这是一个有关速成 Kotlin 的学习笔记，并不是系统性教程。本文需要读者掌握 Java。本文只会列出 Kotlin 与 Java 的&lt;strong&gt;常用&lt;/strong&gt;不同之处，在实际编程中很少用到的 Kotlin</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Kotlin" scheme="https://lz233.ac.cn/tags/Kotlin/"/>
+    
+    <category term="笔记" scheme="https://lz233.ac.cn/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>「长期更新」一些有意思的开源项目收集</title>
