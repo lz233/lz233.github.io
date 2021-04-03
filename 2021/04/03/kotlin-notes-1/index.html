@@ -13,7 +13,7 @@
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 <p>前两行语句分别会创建一个类型为 <code>Int</code>，数值为 6 的可变变量与不可变变量。上述使用关键字 <code>val</code> 声明的变量相当于 Java 中的 <code>final int a = 6</code>。在 Kotlin 中，应总是优先声明不可变变量。</p>
 <p>关键词 <code>lateinit</code> 表示对变量的延迟初始化，相当于 <code>int a</code>。这类声明在 Java 中可能很常见，但由于 Kotlin 的空安全机制，应尽力避免此类声明。</p>
-<p>取决于 Kotlin 出色的类型推导机制，Kotlin 是一个静态强类型语言，这意味着在大部分情况下你不需要声明变量的类型，除了刚才的 <code>lateinit</code>，稍后我们还将将看到几种需要声明类型的情况。</p>
+<p>取决于 Kotlin 出色的类型推导机制，Kotlin 是一个静态强类型语言，这意味着在大部分情况下你不需要声明变量的类型，除了刚才的 <code>lateinit</code>，稍后我们还将看到几种需要声明类型的情况。</p>
 <h2 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h2><p>Kotlin 保留了一些 Java 中的基本运算符，如 <code>+</code>、<code>-</code>、<code>*</code>、<code>/</code>、<code>%</code>、<code>++</code>、<code>--</code>，这里不再介绍。同时，取决于 Kotlin 的 infix 函数，我们使用 <code>and</code>、<code>or</code> 分别取代 <code>&amp;</code>、<code>|</code>。下面是一个例子：</p>
 <pre class="line-numbers language-kotlin"><code class="language-kotlin"><span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">10</span>
 a <span class="token operator">+=</span> a <span class="token operator">*</span> <span class="token number">10</span> <span class="token operator">+</span> <span class="token number">10</span> <span class="token operator">/</span> <span class="token number">5</span>
