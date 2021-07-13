@@ -6,7 +6,7 @@
   <link href="https://lz233.ac.cn/atom.xml" rel="self"/>
   
   <link href="https://lz233.ac.cn/"/>
-  <updated>2021-05-03T16:21:01.000Z</updated>
+  <updated>2021-07-12T12:14:12.000Z</updated>
   <id>https://lz233.ac.cn/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>reMarkable 2 Hack 不完全指北</title>
+    <link href="https://lz233.ac.cn/2021/07/12/remarkable2-hack-guide/"/>
+    <id>https://lz233.ac.cn/2021/07/12/remarkable2-hack-guide/</id>
+    <published>2021-07-12T12:14:12.000Z</published>
+    <updated>2021-07-12T12:14:12.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;进行下列操作前务必明确你在干什么。&lt;strong&gt;任何&lt;/strong&gt;操作都请记得备份，否则后果自负。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;reMarkable 2</summary>
+        
+      
+    
+    
+    
+    
+    <category term="reMarkable" scheme="https://lz233.ac.cn/tags/reMarkable/"/>
+    
+    <category term="Linux" scheme="https://lz233.ac.cn/tags/Linux/"/>
+    
+  </entry>
   
   <entry>
     <title>「Kotlin 速成笔记」区间、逻辑控制、标准函数、空类型判断、Lambda 式函数</title>
@@ -135,7 +163,7 @@
         
     <summary type="html">
 
-&lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;SONY 的一直拥有业界盛名的降噪技术，其前一代产品 WH-1000XM3 也拥有业界较好的降噪技术。而前几周 WH-1000XM4</summary>
+&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;SONY 的一直拥有业界盛名的降噪技术，其前一代产品 WH-1000XM3 也拥有业界较好的降噪技术。而前几周 WH-1000XM4</summary>
         
       
     
@@ -281,11 +309,11 @@
     
     
     
-    <category term="GNU/Linux" scheme="https://lz233.ac.cn/tags/GNU-Linux/"/>
-    
     <category term="ZorinOS" scheme="https://lz233.ac.cn/tags/ZorinOS/"/>
     
     <category term="回形针" scheme="https://lz233.ac.cn/tags/%E5%9B%9E%E5%BD%A2%E9%92%88/"/>
+    
+    <category term="Linux" scheme="https://lz233.ac.cn/tags/Linux/"/>
     
   </entry>
   

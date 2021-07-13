@@ -1,0 +1,73 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="author"><title>reMarkable 2 Hack 不完全指北 · 鱼类观测研究所</title><meta name="description" content="进行下列操作前务必明确你在干什么。任何操作都请记得备份，否则后果自负。
+
+reMarkable 2 是一款用于笔记与批注的水墨屏设备，因其的高颜值、低延迟和高开放性等优点，而深受我的喜爱。
+rM 在国内的知名度很低，相关中文资料很少，故有此文。
+SSHrM 默认开启了 SSH 端口，转到 Setti"><meta name="keywords" content=""><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="renderer" content="webkit"><link rel="short icon" href="/images/favicon.jpg" type="image/x-icon"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lz233/lz233.github.io/css/bootstrap.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lz233/src.lz233.github.io/css/font-awesome.min.css"><link rel="stylesheet" href="/css/style.css"><!--link(rel="stylesheet", href= 'https://cdn.jsdelivr.net/gh/lz233/lz233.github.io/css/style.css')--><link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/atom.xml"><meta name="generator" content="Hexo 5.3.0"><link rel="stylesheet" href="/css/prism-nord.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head><body><div class="container" id="stage"><div class="row"><div class="col-sm-3 col-xs-12 side-container invisible" id="side-bar"><div class="vertical-text site-title"><h3 class="site-title-small" tabindex="-1"><a class="a-title" href="/">lz233's blog</a></h3><h1 class="site-title-large" tabindex="-1"><a class="a-title" href="/">鱼类观测研究所</a></h1><!--h6(onclick="triggerSiteNav()") Trigger--></div><br class="visible-lg visible-md visible-sm"><div class="site-title-links" id="site-nav"><ul><li><a href="/">首页</a></li><li><a href="/archives">归档</a></li><li><a href="/tags">标签</a></li><li><a href="/about/index.html">关于</a></li><li><a href="/friends/index.html">友人</a></li><li class="soc"><a href="https://github.com/lz233" target="_blank" rel="noopener noreferrer"><i class="fa fa-github">&nbsp;</i></a><a href="https://twitter.com/lz__233" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter">&nbsp;</i></a><a href="https://www.acfun.cn/u/13046631" target="_blank" rel="noopener noreferrer"><i class="fa fa-acfun">&nbsp;</i></a><a href="https://music.163.com/#/user/home?id=299866209" target="_blank" rel="noopener noreferrer"><i class="fa fa-cloudmusic">&nbsp;</i></a><a href="https://www.zhihu.com/people/lz233.sakura" target="_blank" rel="noopener noreferrer"><i class="fa fa-zhihu">&nbsp;</i></a><a href="mailto:ohayou@lz233.ac.cn" target="_blank" rel="noopener noreferrer"><i class="fa fa-envelope">&nbsp;</i></a><a href="https://forms.gle/WGYKB8ij61aEH8BWA" target="_blank" rel="noopener noreferrer"><i class="fa fa-send">&nbsp;</i></a><a href="https://lz233.ac.cn/atom.xml" target="_blank" rel="noopener noreferrer"><i class="fa fa-rss">&nbsp;</i></a></li></ul><div class="visible-lg visible-md visible-sm site-nav-footer"><br class="site-nav-footer-br"><footer><p>&copy;&nbsp;2021&nbsp;<a target="_blank" href="https://lz233.ac.cn" rel="noopener noreferrer">lz233</a></p><p>Theme&nbsp;<a target="_blank" href="https://github.com/SumiMakito/hexo-theme-typography" rel="noopener noreferrer">Typography</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.keep.moe" rel="noopener noreferrer">Makito</a></p><p>Background&nbsp;<a target="_blank" href="https://www.pixiv.net/artworks/64584603" rel="noopener noreferrer">Ameagari</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.pixiv.net/users/488766" rel="noopener noreferrer">Mifuru</a></p><p>Proudly published with&nbsp;<a target="_blank" href="https://hexo.io" rel="noopener noreferrer">Hexo</a></p><p>Licensed under&nbsp;<a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0" rel="noopener noreferrer">CC BY-SA 4.0</a></p></footer></div></div></div><div class="col-sm-9 col-xs-12 main-container invisible" id="main-container"><div class="autopagerize_page_element"><div class="content"><div class="post-page"><div class="post-container"><p class="post-title"><a>reMarkable 2 Hack 不完全指北</a></p><p class="post-meta"><span class="date meta-item">发布于&nbsp;2021-07-12</span><span class="meta-item"><i class="fa fa-tag"></i><span>&nbsp;</span><a class="a-tag" href="/tags/reMarkable/" title="reMarkable">reMarkable</a><span>&nbsp;</span><a class="a-tag" href="/tags/Linux/" title="Linux">Linux</a><span>&nbsp;</span></span></p><p class="post-abstract"><blockquote>
+<p>进行下列操作前务必明确你在干什么。<strong>任何</strong>操作都请记得备份，否则后果自负。</p>
+</blockquote>
+<p>reMarkable 2 是一款用于笔记与批注的水墨屏设备，因其的高颜值、低延迟和高开放性等优点，而深受我的喜爱。</p>
+<p>rM 在国内的知名度很低，相关中文资料很少，故有此文。</p>
+<h2 id="SSH"><a href="#SSH" class="headerlink" title="SSH"></a>SSH</h2><p>rM 默认开启了 SSH 端口，转到 Settings -&gt; Help -&gt; Copyrights and licenses -&gt; GPLv3 Compliance 查看可用的 IP 地址和密匙，并用如下命令连接设备：</p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">ssh</span> root@IP
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>先来借助 neofetch 查看一下 rM2 的技术细节吧！</p>
+<pre><code>        #####           root@reMarkable
+       #######          ---------------
+       ##O#O##          OS: Codex Linux 3.1.5 (dunfell) armv7l
+       #######          Host: reMarkable 2.0
+     ###########        Kernel: 4.14.78
+    #############       Uptime: 28 mins
+   ###############      Packages: 46 (opkg)
+   ################     Shell: sh
+  #################     Terminal: /dev/pts/0
+#####################   CPU: Freescale i.MX7 Dual (Device Tree) (2) @ 1.200GHz
+#####################   Memory: 170MiB / 1003MiB
+  #################
+</code></pre>
+<h2 id="中文字体"><a href="#中文字体" class="headerlink" title="中文字体"></a>中文字体</h2><p>rM 在其市场定位的选择中并没有将中国大陆包含在内，故无自带中文。</p>
+<p>Linux 的字体存放在 <code>/usr/share/fonts</code>，将字体通过 SCP 移入即可：</p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">scp</span> your_font<span class="token punctuation">(</span>s<span class="token punctuation">)</span> root@IP:/usr/share/fonts/ttf
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>个人比较常用的字体是<a target="_blank" rel="noopener" href="https://github.com/welai/glow-sans">未来荧黑</a>和<a target="_blank" rel="noopener" href="https://github.com/be5invis/Sarasa-Gothic">更纱黑体</a>，下载完毕后须删除等宽体等变体，因为 rM 不会让你选择字体，<code>.otf</code>  文件应放在 <code>/usr/share/fonts/opentype</code>。</p>
+<p>如提示无储存空间，可通过建立符号链接解决，示例如下：</p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">mkdir</span> ~/fonts //on rM
+<span class="token function">scp</span> ./glow root@10.11.99.1:~/fonts //on PC
+<span class="token function">ln</span> -s ~/fonts /usr/share/fonts/opentype //on rM
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p>完成操作后重启生效。</p>
+<h2 id="休眠壁纸"><a href="#休眠壁纸" class="headerlink" title="休眠壁纸"></a>休眠壁纸</h2><p>有关开机、关机、休眠状态下的图片都在 <code>/usr/share/remarkable</code> 下，重启后生效，怎么处理都随你啦！</p>
+<h2 id="Opkg"><a href="#Opkg" class="headerlink" title="Opkg"></a>Opkg</h2><p>多亏了 rM 的高度开放性，社区已经提供了<a target="_blank" rel="noopener" href="https://github.com/Evidlo/remarkable_entware">一键安装脚本</a>，使用如下脚本完成 Opkg 的安装，然后，你就可以使用来自 <a target="_blank" rel="noopener" href="http://bin.entware.net/armv7sf-k3.2">Entware</a> 和 <a target="_blank" rel="noopener" href="https://toltec-dev.org/stable">Toltec</a> 的软件包。</p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">wget</span> -O - http://raw.githubusercontent.com/Evidlo/remarkable_entware/master/install.sh <span class="token operator">|</span> sh
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>完成后使用 <code>nano</code> 在 <code>/opt/etc/opkg.conf</code> 添加三行配置，方便后续操作。</p>
+<pre><code>arch arm 100
+arch rm2 100 //rm2
+arch rm1 100 //rm1
+arch rmall 100
+</code></pre>
+<h2 id="rm2fb"><a href="#rm2fb" class="headerlink" title="rm2fb"></a>rm2fb</h2><p>rM2 需要使用 <a target="_blank" rel="noopener" href="https://github.com/ddvk/remarkable2-framebuffer">rm2fb</a> 驱动帧缓冲区。当前阶段（rM version&gt;=2.6），务必使用 <a target="_blank" rel="noopener" href="https://toltec-dev.org/testing">Toltec Testing</a> 源中的软件包，否则可能无法正常工作。</p>
+<p>Testing 源不提供直接索引，将 <code>.ipk</code> 文件下载后手动安装：</p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">wget</span> https://toltec-dev.org/testing/rm2/display_1.0.1-6_rm2.ipk //replace your version
+<span class="token function">wget</span> https://toltec-dev.org/testing/rm2/rm2fb-client_1.0.1-6_rm2.ipk //replace your version
+opkg <span class="token function">install</span> *.ipk
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<h2 id="remux"><a href="#remux" class="headerlink" title="remux"></a>remux</h2><p><a target="_blank" rel="noopener" href="https://rmkit.dev/apps/remux">remux</a> 是为 rM 设计的多任务应用启动器。当前依然建议安装 Testing 源的软件包，安装重启后在屏幕左侧或右侧向上划（幅度大点）即可打开启动器。</p>
+<p>修改 <code>~/.config/remux/remux.conf</code> 可自定义唤起方式，例如，下方配置代表三指点击（有很大的误触几率）唤起启动器。</p>
+<pre><code>launch_gesture=gesture=tap;fingers=3
+</code></pre>
+<h2 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h2><p>目前可以从 <a target="_blank" rel="noopener" href="https://adoptopenjdk.net/">AdoptOpenJDK</a> 获取到 arm 架构的 <a target="_blank" rel="noopener" href="https://github.com/AdoptOpenJDK/openjdk16-binaries/releases/download/jdk-16.0.1%2B9/OpenJDK16U-jdk_arm_linux_hotspot_16.0.1_9.tar.gz">jdk 16</a> 和 <a target="_blank" rel="noopener" href="https://github.com/AdoptOpenJDK/openjdk16-binaries/releases/download/jdk-16.0.1%2B9/OpenJDK16U-jre_arm_linux_hotspot_16.0.1_9.tar.gz">jre 16</a>。下载解压后在 <code>~/.bashrc</code> 最后一行配置 PATH 变量即可。</p>
+<pre><code>PATH=/opt/bin:/opt/sbin:$PATH:/home/root/your_java_dir/bin
+</code></pre>
+<h2 id="FileZilla"><a href="#FileZilla" class="headerlink" title="FileZilla"></a>FileZilla</h2><p><a target="_blank" rel="noopener" href="https://filezilla-project.org/">FileZilla</a> 是一款通过 FTP/SFTP 传输文件的工具，你可以使用它代替上文提到的 SCP，使用图形化界面进行操作。</p>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>上文提到的 Toltec 源是专门为 rM 提供的，你还可以尝试源中的其他软件。这里说一些需要特别注意的地方：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://github.com/reHackable/Calculator">calculator</a> 推荐使用 Testing 源</li>
+<li><a target="_blank" rel="noopener" href="https://github.com/dixonary/fingerterm-reMarkable">fingerterm</a> 推荐使用 Testing 源</li>
+<li><a target="_blank" rel="noopener" href="https://github.com/dps/remarkable-wikipedia">wikipedia</a> 推荐使用 Testing 源</li>
+<li><a target="_blank" rel="noopener" href="https://github.com/ddvk/remarkable-hacks">remarkable-hacks</a> 很大概率上会造成 xochitl 极其不稳定（至少在我这是这样），不推荐使用。</li>
+<li>使用第三方启动器后，建议取消 PIN，因为这可能会造成 rM 失控。</li>
+<li>终端推荐使用 <a target="_blank" rel="noopener" href="https://github.com/timower/rM2-stuff/tree/master/apps/yaft">yaft</a>。这比 fingerterm 快且易用。</li>
+<li>一份更加丰富的社区指南已经为你呈现：<a target="_blank" rel="noopener" href="https://github.com/reHackable/awesome-reMarkable">awesome-reMarkable</a>。</li>
+</ul>
+</p></div><div class="share"><span>分享到</span>&nbsp;<span class="soc"><a class="fa fa-bookmark" href="javascript:(function(){EN_CLIP_HOST='http://www.evernote.com';try{var%20x=document.createElement('SCRIPT');x.type='text/javascript';x.src=EN_CLIP_HOST+'/public/bookmarkClipper.js?'+(new%20Date().getTime()/100000);document.getElementsByTagName('head')[0].appendChild(x);}catch(e){location.href=EN_CLIP_HOST+'/clip.action?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title);}})();" ref="nofollow" target="_blank"></a></span><span class="soc"><a class="fa fa-weibo" href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&amp;title=',e(d.title),'&amp;appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));"></a></span><span class="soc"><a class="fa fa-twitter" target="_blank" rel="noopener" href="http://twitter.com/home?status=https://lz233.ac.cn/2021/07/12/remarkable2-hack-guide/%20鱼类观测研究所%20reMarkable 2 Hack 不完全指北"></a></span></div><div class="pagination"><p class="clearfix"><span>&nbsp;</span><span class="next pagbuttons"><a role="navigation" href="/2021/05/04/kotlin-writeup-2/" title="「Kotlin 速成笔记」区间、逻辑控制、标准函数、空类型判断、Lambda 式函数">下一篇: 「Kotlin 速成笔记」区间、逻辑控制、标准函数、空类型判断、Lambda 式函数&nbsp;<i class="fa fa-angle-double-right"></i></a></span></p></div></div></div></div><div class="visible-xs site-bottom-footer"><footer><p>&copy;&nbsp;2021&nbsp;<a target="_blank" href="https://lz233.ac.cn" rel="noopener noreferrer">lz233</a></p><p>Theme&nbsp;<a target="_blank" href="https://github.com/SumiMakito/hexo-theme-typography" rel="noopener noreferrer">Typography</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.keep.moe" rel="noopener noreferrer">Makito</a></p><p>Background&nbsp;<a target="_blank" href="https://www.pixiv.net/artworks/64584603" rel="noopener noreferrer">Ameagari</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.pixiv.net/users/488766" rel="noopener noreferrer">Mifuru</a></p><p>Proudly published with&nbsp;<a target="_blank" href="https://hexo.io" rel="noopener noreferrer">Hexo</a></p><p>Licensed under&nbsp;<a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0" rel="noopener noreferrer">CC BY-SA 4.0</a></p></footer></div></div></div></div><script src="https://cdn.jsdelivr.net/npm/jquery@3.1.0/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/gh/twbs/bootstrap/dist/js/bootstrap.min.js"></script><!--script(src= 'https://cdn.jsdelivr.net/npm/jquery-migrate@1.2.1/jquery-migrate.min.js')--><!--script(src= 'https://cdn.jsdelivr.net/npm/jquery.appear@0.3.3/jquery.appear.min.js')--><!--script(src= url_for('js/google-analytics.js'))--><script src="https://cdn.jsdelivr.net/gh/lz233/lz233.github.io/js/typography.js"></script></body></html>
