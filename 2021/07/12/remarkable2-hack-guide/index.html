@@ -41,11 +41,11 @@ SSHrM 默认开启了 SSH 端口，转到 Setti"><meta name="keywords" content="
 <pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">wget</span> -O - http://raw.githubusercontent.com/Evidlo/remarkable_entware/master/install.sh <span class="token operator">|</span> sh
 <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p>完成后使用 <code>nano</code> 在 <code>/opt/etc/opkg.conf</code> 添加三行配置，方便后续操作。</p>
-<pre><code>arch arm 100
+<pre class="line-numbers language-bash"><code class="language-bash">arch arm 100
 arch rm2 100 //rm2
 arch rm1 100 //rm1
 arch rmall 100
-</code></pre>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 <h2 id="rm2fb"><a href="#rm2fb" class="headerlink" title="rm2fb"></a>rm2fb</h2><p>rM2 需要使用 <a target="_blank" rel="noopener" href="https://github.com/ddvk/remarkable2-framebuffer">rm2fb</a> 驱动帧缓冲区。当前阶段（rM version&gt;=2.6），务必使用 <a target="_blank" rel="noopener" href="https://toltec-dev.org/testing">Toltec Testing</a> 源中的软件包，否则可能无法正常工作。</p>
 <p>Testing 源不提供直接索引，将 <code>.ipk</code> 文件下载后手动安装：</p>
 <pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">wget</span> https://toltec-dev.org/testing/rm2/display_1.0.1-6_rm2.ipk //replace your version
@@ -54,11 +54,11 @@ opkg <span class="token function">install</span> *.ipk
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 <h2 id="remux"><a href="#remux" class="headerlink" title="remux"></a>remux</h2><p><a target="_blank" rel="noopener" href="https://rmkit.dev/apps/remux">remux</a> 是为 rM 设计的多任务应用启动器。当前依然建议安装 Testing 源的软件包，安装重启后在屏幕左侧或右侧向上划（幅度大点）即可打开启动器。</p>
 <p>修改 <code>~/.config/remux/remux.conf</code> 可自定义唤起方式，例如，下方配置代表三指点击（有很大的误触几率）唤起启动器。</p>
-<pre><code>launch_gesture=gesture=tap;fingers=3
-</code></pre>
+<pre class="line-numbers language-bash"><code class="language-bash">launch_gesture<span class="token operator">=</span>gesture<span class="token operator">=</span>tap<span class="token punctuation">;</span>fingers<span class="token operator">=</span>3
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <h2 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h2><p>目前可以从 <a target="_blank" rel="noopener" href="https://adoptopenjdk.net/">AdoptOpenJDK</a> 获取到 arm 架构的 <a target="_blank" rel="noopener" href="https://github.com/AdoptOpenJDK/openjdk16-binaries/releases/download/jdk-16.0.1%2B9/OpenJDK16U-jdk_arm_linux_hotspot_16.0.1_9.tar.gz">jdk 16</a> 和 <a target="_blank" rel="noopener" href="https://github.com/AdoptOpenJDK/openjdk16-binaries/releases/download/jdk-16.0.1%2B9/OpenJDK16U-jre_arm_linux_hotspot_16.0.1_9.tar.gz">jre 16</a>。下载解压后在 <code>~/.bashrc</code> 最后一行配置 PATH 变量即可。</p>
-<pre><code>PATH=/opt/bin:/opt/sbin:$PATH:/home/root/your_java_dir/bin
-</code></pre>
+<pre class="line-numbers language-bash"><code class="language-bash">PATH<span class="token operator">=</span>/opt/bin:/opt/sbin:<span class="token variable">$PATH</span>:/home/root/your_java_dir/bin
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <h2 id="FileZilla"><a href="#FileZilla" class="headerlink" title="FileZilla"></a>FileZilla</h2><p><a target="_blank" rel="noopener" href="https://filezilla-project.org/">FileZilla</a> 是一款通过 FTP/SFTP 传输文件的工具，你可以使用它代替上文提到的 SCP，使用图形化界面进行操作。</p>
 <h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>上文提到的 Toltec 源是专门为 rM 提供的，你还可以尝试源中的其他软件。这里说一些需要特别注意的地方：</p>
 <ul>
