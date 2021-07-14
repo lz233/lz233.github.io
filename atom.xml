@@ -83,7 +83,7 @@
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;请注意，这是一个有关速成 Kotlin 的学习笔记，并不是系统性教程。本文需要读者掌握 Java。本文只会列出 Kotlin 与 Java 的*&lt;em&gt;常用&lt;/em&gt;见不同之处，在实际编程中很少用到的 Kotlin</summary>
+&lt;p&gt;请注意，这是一个有关速成 Kotlin 的学习笔记，并不是系统性教程。本文需要读者掌握 Java。本文只会列出 Kotlin 与 Java 的&lt;strong&gt;常用&lt;/strong&gt;不同之处，在实际编程中很少用到的 Kotlin</summary>
         
       
     
